@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #454545;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 14px;
+  color: #FFF;
+  background: teal;
+}
+
+a:hover, a:active {
+  background: #FFF;
+  color: teal;
+}
+
+.checkboxes {
+  border: solid orange 1px;
+  width: 200px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.form_checkbox {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin: 14px;
+}
+
+.checkbox-text {
+  padding: 10px;
+}
